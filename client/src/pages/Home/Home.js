@@ -81,12 +81,12 @@ const Home = () => {
               />
               <CardMedia
                 className={classes.media}
-                image= {book.volumeInfo.imageLinks.thumbnail.length ? `${book.volumeInfo.imageLinks.thumbnail}` : 'Image unavailable'}
+                image= {book.volumeInfo.imageLinks.thumbnail ? `${book.volumeInfo.imageLinks.thumbnail}` : 'Image unavailable'}
                 title={book.volumeInfo.title}
               />
               <CardContent>
                 <Typography variant="subtitle2" component="h4">
-                  {book.volumeInfo.authors.length ? `Written by ${book.volumeInfo.authors}` : 'Author unknown'}
+                  {book.volumeInfo.authors ? `Written by ${book.volumeInfo.authors}` : 'Author unknown'}
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                   {book.volumeInfo.description}

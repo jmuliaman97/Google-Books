@@ -12,7 +12,7 @@ Create a new React-based Google Books Search app. This assignment requires me to
 * [Questions](#questions)
 
 ## Installation
-Clone [repository](https://github.com/jmuliaman97/Google-Books.git) 
+Clone [repository](https://github.com/jmuliaman97/Google-Books.git) or open deployed [application](https://rocky-earth-40342.herokuapp.com/)
 
 ## Usage
 Open terminal and the application will be invoked with the following command: npm start
